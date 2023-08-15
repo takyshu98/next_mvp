@@ -10,7 +10,8 @@
     "lint:fix": "eslint --ext .ts,.tsx ./src --no-error-on-unmatched-pattern --fix",
     "prettier": "prettier \"**/*.+(json|ts|tsx)\"",
     "format:check": "npm run prettier -- --check",
-    "format:fix": "npm run prettier -- --write"
+    "format:fix": "npm run prettier -- --write",
+    "types:check": "tsc --noEmit --pretty"
   },
   "dependencies": {
     "next": "13.4.13",
