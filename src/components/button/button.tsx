@@ -33,7 +33,7 @@ export const Button = ({
   children,
   icon,
   ...props
-}: ButtonProps) => {
+}: ButtonProps): JSX.Element => {
   return (
     <ChakraButton
       {...props}

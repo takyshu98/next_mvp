@@ -12,7 +12,7 @@ type AppProviderProps = {
 
 export const AppProvider = ({
   children,
-}: AppProviderProps) => {
+}: AppProviderProps): JSX.Element => {
   return (
     <ChakraProvider theme={theme}>
       <GlobalStyle />
